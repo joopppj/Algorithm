@@ -1,4 +1,4 @@
-public class Solution {
+public class UniquePaths {
     // given a m x n matrix , calculate the number possible ways from top left to bottom right . 
     public int uniquePaths(int m, int n) {
         int[][] dp=new int[m][n];
