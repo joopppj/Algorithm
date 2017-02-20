@@ -1,4 +1,5 @@
 public class GameOfLife {
+    // problem : game of life
     int[][] dir ={{1,-1},{1,0},{1,1},{0,-1},{0,1},{-1,-1},{-1,0},{-1,1}};
     public static void gameOfLife(int[][] board) {
          for(int i=0;i<board.length;i++){
@@ -18,4 +19,5 @@ public class GameOfLife {
         }
     }
     }
+    // the trick in this solution is the encoding technique. pay attention to 12th line and 13th line, we encoding the updated state in case it affect other states' updates
 }
