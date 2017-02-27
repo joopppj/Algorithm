@@ -1,5 +1,5 @@
 public class maximalSquare {
-
+//qGiven a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
          public static int maximalSquare(char[][] matrix) {
         int rows = matrix.length, cols = rows > 0 ? matrix[0].length : 0;
         int[][] dp = new int[rows + 1][cols + 1];
