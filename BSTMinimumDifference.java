@@ -1,5 +1,5 @@
 //assume the bst data structure is already provided
-public class Solution {
+public class BSTMinimumDifference {
 // q: given a bst find the max difference of two any nodes. 
     int min=Integer.MAX_VALUE;
     TreeNode pre=null;
