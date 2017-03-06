@@ -1,4 +1,5 @@
 //deisgn a TicTacToe game. with the method move(). move returns which player wins after this move. 
+// the key point of this solution is the fact that if a player wins, it must fill one row/col or one diagonal line.   
 public class TicTacToe {
     private int[] rows;
     private int[] cols;
