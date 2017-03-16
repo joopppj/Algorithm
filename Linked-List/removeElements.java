@@ -22,5 +22,5 @@ public class removeElements {
         }
         return res;
     }
-    // overall , it is a  simple linked list question, but it has some edge case which are hard to be considered at first . 
+    // overall , it is a  simple linked list question, but it has some edges case which are hard to be considered at first . 
 }
