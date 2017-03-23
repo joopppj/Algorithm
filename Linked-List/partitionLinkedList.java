@@ -18,5 +18,6 @@ public class partitionLinkedList {
         curr2.next = null;          //important! avoid cycle in linked list. otherwise u will get TLE.
         curr1.next = dummy2.next;
         return dummy1.next;
+        //use two queue two record two subparts of the final result  , one for elements smaller and one for elements larger
     }
 }
