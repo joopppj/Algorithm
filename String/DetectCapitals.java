@@ -6,4 +6,5 @@ public class DetectCapitals {
                Character.isUpperCase(word.charAt(0)) && 
                word.substring(1).equals(word.substring(1).toLowerCase());
     }
+   // solution , just check four possible situations 
 }
