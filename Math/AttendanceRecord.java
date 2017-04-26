@@ -5,4 +5,5 @@ public class AttendanceRecord {
     public boolean checkRecord(String s) {
         return !s.contains("LLL") && (s.indexOf("A") == s.lastIndexOf("A"));
     }
+    // just list two possible situations
 }
